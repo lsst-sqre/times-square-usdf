@@ -1,0 +1,12 @@
+title: Prompt Processing Bean Counting
+description: Group-based tables and plots of prompt processing for a given night.
+authors:
+  - name: Hsin-Fang Chiang
+    slack: hsinfang
+tags:
+  - prompt-processing
+parameters:
+  date:
+    type: string
+    description: Day of observation (YYYY-MM-DD)
+    default: "2023-08-29"
