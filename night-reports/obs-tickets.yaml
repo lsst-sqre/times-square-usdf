@@ -1,0 +1,13 @@
+title: OBS issues
+description: Summary of OBS issues reported during the night.
+authors:
+  - name: Jonathan Sick
+    slack: jonathansick
+tags:
+  - night-reports
+  - demo
+parameters:
+  date:
+    type: string
+    description: Night (YYYY-MM-DD)
+    default: "2024-01-08"
