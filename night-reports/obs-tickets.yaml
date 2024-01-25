@@ -1,0 +1,17 @@
+title: OBS issues
+description: Summary of OBS issues reported during a period
+authors:
+  - name: Jonathan Sick
+    slack: jonathansick
+tags:
+  - night-reports
+  - demo
+parameters:
+  start:
+    type: string
+    description: Start date (YYYY-MM-DD)
+    default: "2024-01-08"
+  duration:
+    type: integer
+    description: Number of days
+    default: 14
