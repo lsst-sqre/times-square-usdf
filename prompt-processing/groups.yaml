@@ -9,4 +9,4 @@ parameters:
   date:
     type: string
     description: Day of observation (YYYY-MM-DD)
-    default: "2023-08-29"
+    default: "2023-12-22"
