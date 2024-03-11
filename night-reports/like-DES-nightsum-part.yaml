@@ -1,5 +1,5 @@
-title: nightsum
-description: Night report inspired by the DES nightsum tool
+title: nightsumpart
+description: Part of nightsum
 authors:
   - name: Eric H. Neilsen, Jr.
     slack: neilsen
@@ -8,7 +8,3 @@ parameters:
     type: string
     description: Date of observation (YYYY-MM-DD)
     default: "2025-05-02"
-  visit_db_fname:
-    type: string
-    description: Path to the visit database at the USDF
-    default: "/sdf/data/rubin/user/neilsen/data/rubin_sim_data/sim_baseline/baseline_v3.3_10yrs.db"
