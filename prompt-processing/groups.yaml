@@ -9,7 +9,7 @@ parameters:
   date:
     type: string
     description: Day of observation (YYYY-MM-DD)
-    default: "2023-12-22"
+    default: "2024-03-14"
   mode:
     type: string
     description: Report or debug mode
