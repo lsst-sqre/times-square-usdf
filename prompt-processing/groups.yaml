@@ -14,6 +14,10 @@ parameters:
     type: string
     description: Instrument name
     default: "LATISS"
+  survey:
+    type: string
+    description: Survey name
+    default: "AUXTEL_PHOTO_IMAGING"
   mode:
     type: string
     description: Report or debug mode
