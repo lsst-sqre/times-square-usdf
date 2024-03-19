@@ -10,6 +10,10 @@ parameters:
     type: string
     description: Day of observation (YYYY-MM-DD)
     default: "2024-03-14"
+  instrument:
+    type: string
+    description: Instrument name
+    default: "LATISS"
   mode:
     type: string
     description: Report or debug mode
