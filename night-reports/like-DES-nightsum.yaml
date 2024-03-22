@@ -8,8 +8,8 @@ parameters:
     type: string
     description: Date of observation (YYYY-MM-DD)
     default: "2025-05-02"
-  visit_db_fname:
+  sim_version:
     type: string
-    description: The visit database filename
-    default: ""
+    description: The version of the simulation to use
+    default: "3.4"
 
