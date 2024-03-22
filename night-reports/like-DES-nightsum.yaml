@@ -8,3 +8,8 @@ parameters:
     type: string
     description: Date of observation (YYYY-MM-DD)
     default: "2025-05-02"
+  visit_db_fname:
+    type: string
+    description: The visit database filename
+    default: ""
+
