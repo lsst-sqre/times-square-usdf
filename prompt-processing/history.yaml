@@ -1,0 +1,21 @@
+title: Prompt Processing Historical View
+description: Prompt processing outputs from the past.
+authors:
+  - name: Hsin-Fang Chiang
+    slack: hsinfang
+tags:
+  - prompt-processing
+parameters:
+  days:
+    type: integer
+    description: How many days to look back
+    default: 7
+    minimum: 0
+  instrument:
+    type: string
+    description: Instrument name
+    default: "LATISS"
+  survey:
+    type: string
+    description: Survey name
+    default: "AUXTEL_PHOTO_IMAGING"
