@@ -9,4 +9,12 @@ parameters:
   date:
     type: string
     description: Day of observation (YYYY-MM-DD)
-    default: "2023-08-29"
+    default: "2024-04-02"
+  instrument:
+    type: string
+    description: Instrument name
+    default: "LATISS"
+  survey:
+    type: string
+    description: Survey name
+    default: "AUXTEL_PHOTO_IMAGING"
