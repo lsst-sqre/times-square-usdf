@@ -1,0 +1,32 @@
+title: Resource Usage Plots for up to three Collections
+description: Generate plots comparing runtime and memory usage stats for up to three collections
+authors:
+  - name: Yusra AlSayyad
+    slack: yusra
+tags:
+  - batch-processing
+parameters:
+  repo1:
+    type: string
+    description: Butler repo of first collection to display
+    default: "embargo"
+  collection1:
+    type: string
+    description: Collection name containing a resource usage summary to display
+    default: "LSSTComCam/runs/DRP/20241101_20241211/w_2024_50/DM-48128"
+  repo2:
+    type: string
+    description: Optional Butler repo of second collection to compare
+    default: "embargo"
+  collection2:
+    type: string
+    description: Optional second collection of resource usage statistics to compare
+    default: "LSSTComCam/runs/DRP/20241101_20241204/w_2024_49/DM-47988"
+  repo3:
+    type: string
+    description: Optional Butler repo of third collection to compare
+    default: ""
+  collection3:
+    type: string
+    description: Optional third collection of resource usage statistics to compare
+    default: ""
