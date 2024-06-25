@@ -9,15 +9,15 @@ parameters:
   date:
     type: string
     description: Day of observation (YYYY-MM-DD)
-    default: "2024-04-01"
+    default: "2024-06-18"
   instrument:
     type: string
     description: Instrument name
-    default: "LATISS"
+    default: "LSSTComCamSim"
   survey:
     type: string
     description: Survey name
-    default: "AUXTEL_PHOTO_IMAGING"
+    default: "BLOCK-297"
   mode:
     type: string
     description: Report or debug mode
