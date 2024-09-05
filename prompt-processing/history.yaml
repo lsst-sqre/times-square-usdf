@@ -18,4 +18,4 @@ parameters:
   survey:
     type: string
     description: Survey name
-    default: "AUXTEL_PHOTO_IMAGING"
+    default: "BLOCK-306"
