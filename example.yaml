@@ -1,0 +1,12 @@
+title: Example
+description: Moon illumination on a given night.
+authors:
+  - name: Jonathan Sick
+    slack: jonathansick
+tags:
+  - demo
+parameters:
+  date:
+    type: string
+    description: Night (YYYY-MM-DD)
+    default: "2024-02-01"
