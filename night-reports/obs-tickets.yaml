@@ -1,5 +1,5 @@
 title: OBS issues
-description: Summary of OBS issues reported during a period
+description: Summary of OBS issues reported during a period.
 authors:
   - name: Jonathan Sick
     slack: jonathansick
@@ -9,8 +9,9 @@ tags:
 parameters:
   start:
     type: string
+    format: date
     description: Start date (YYYY-MM-DD)
-    default: "2024-01-08"
+    dynamic_default: -14d
   duration:
     type: integer
     description: Number of days
