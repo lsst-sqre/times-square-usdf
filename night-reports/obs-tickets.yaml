@@ -7,12 +7,12 @@ tags:
   - night-reports
   - demo
 parameters:
-  start:
+  end_date:
     type: string
     format: date
-    description: Start date (YYYY-MM-DD)
-    dynamic_default: -14d
-  duration:
+    description: Search end date (YYYY-MM-DD)
+    dynamic_default: today
+  lookback:
     type: integer
-    description: Number of days
+    description: Number of days to look back
     default: 14
