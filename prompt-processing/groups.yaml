@@ -9,7 +9,7 @@ parameters:
   date:
     type: string
     description: Day of observation (YYYY-MM-DD)
-    default: "2025-04-19"
+    default: "2025-06-07"
   instrument:
     type: string
     description: Instrument name
