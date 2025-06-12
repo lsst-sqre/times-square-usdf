@@ -9,6 +9,6 @@ tags:
 parameters:
   dayobs:
     type: string
-    format: dayobs
-    description: YYYYMMDD
+    format: dayobs-date
+    description: YYYY-MM-DD
     dynamic_default: yesterday
