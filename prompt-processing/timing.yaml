@@ -9,7 +9,7 @@ parameters:
   date:
     type: string
     description: Day of observation (YYYY-MM-DD)
-    default: "2025-04-19"
+    default: "2025-11-10"
   instrument:
     type: string
     description: Instrument name
@@ -17,4 +17,4 @@ parameters:
   survey:
     type: string
     description: Survey name
-    default: "BLOCK-365"
+    default: "BLOCK-407"
