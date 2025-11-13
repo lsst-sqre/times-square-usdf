@@ -1,0 +1,14 @@
+title: Times Square Status
+description: Information about the docker image and kernel Times Square is currently running
+authors:
+  - name: Jonathan Sick
+    slack: jonathansick
+parameters:
+  date:
+    type: string
+    format: date
+    description: YYYY-MM-DD
+    dynamic_default: "today"
+schedule:
+  - freq: "daily"
+    hour: 8
