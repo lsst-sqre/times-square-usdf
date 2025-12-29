@@ -9,24 +9,24 @@ parameters:
   repo1:
     type: string
     description: Butler repo of first collection to display
-    default: "embargo"
+    default: "dp2_prep"
   collection1:
     type: string
-    description: Collection name containing a resource usage summary to display
-    default: "LSSTComCam/runs/DRP/20241101_20241211/w_2024_50/DM-48128"
+    description: Collection name containing a ResourceUsageSummary to display. Wildcards OK.
+    default: "LSSTCam/runs/DRP/20250417_20250921/w_2025_49/DM-53545/*"
   repo2:
     type: string
     description: Optional Butler repo of second collection to compare
-    default: "embargo"
+    default: "dp2_prep"
   collection2:
     type: string
     description: Optional second collection of resource usage statistics to compare
-    default: "LSSTComCam/runs/DRP/20241101_20241204/w_2024_49/DM-47988"
+    default: "LSSTCam/runs/DRP/20250417_20250723/d_2025_11_21/DM-53374/*"
   repo3:
     type: string
     description: Optional Butler repo of third collection to compare
-    default: ""
+    default: "dp2_prep"
   collection3:
     type: string
     description: Optional third collection of resource usage statistics to compare
-    default: ""
+    default: "u/yusra/v30_0_0_rc2/resource_usage_test"
