@@ -1,6 +1,6 @@
 # Times Square Demo Notebooks for USDF
 
-These are notebooks that demonstrate Times Square using production-grade datasets at the Rubin USDF.
+These are notebooks that demonstrate Times Square using datasets at the Rubin USDF.
 
 View online: https://usdf-rsp-dev.slac.stanford.edu/times-square/
 
